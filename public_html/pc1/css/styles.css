@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+}
+
+body{
+    background-color: #395b50;
+    color: 	#c5d1eb;
+    
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #395b50;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 a{
+    color: #c5d1eb;
+}
+
+@media screen and (min-width: 400px){
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+main article img {
+    width: 100%;
+    height: auto;
+}

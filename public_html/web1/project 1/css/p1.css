@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 55px;
+    text-align : center;
+    color: white;
+    background-color: #1E5953;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-size: 47px;
+    text-align: center;
+    color: white;
+    background-color: #5BA6A6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+h3{
+    font-size: 47px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: #1E5953;
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #5BA6A6;
+    color: white;
+    font-family: "Proza Libre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav ul li {
+display: inline-block;
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 20px;
+margin: 2px;
+}
+
+
+
+.button {
+    background-color: #5BA6A6;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 15px;
+
+}
+
+.banner{
+    background-image: url(../imgs/banner.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+a{  
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: "Proza Libre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+body{
+    background-color: #1E5953;
+    color: white;  
+}
+
+figcaption{
+text-align: center;
+font-size: 35px;
+padding-bottom: 15px;
+font-family: "Proza Libre", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+footer{
+    font-size: 14px;
+    text-align: center;
+    background-color:#5BA6A6;
+    font-family: "Proza Libre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    position:relative;
+    margin: 0 auto;
+}
+.gallery figure img{
+    width: 100%;
+}
+
+#pleasefix{
+    font-size: 24px;
+    padding-bottom: 8px;
+    padding-top: 0px;
+}

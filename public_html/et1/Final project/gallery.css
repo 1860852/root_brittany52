@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+p{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 15.5px;
+    padding-top: 15.5px;
+    padding-left: 10.2px;
+    padding-right: 10.2px;
+}
+body{
+    background-color: #c79274;
+    color: 	#946656;
+    
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax (auto-fill, 1fr 1fr));
+    gap: 3px;
+    justify-items: center;
+    position:relative;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gallery2{
+    justify-items: center;
+}
+
+@media screen and (min-width: 300px){
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+main article img {
+    width: 100%;
+    height: auto;
+}
