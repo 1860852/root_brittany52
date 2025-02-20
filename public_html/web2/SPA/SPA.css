@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 30px;
+    padding: 16px;
+    background-color:#FFF0F1;
+    text-align: center;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #CED1F8;
+}
+
+nav{
+    background-color:#A7ABDE;
+}

@@ -21,18 +21,15 @@ h1{
 }
 
 h2{
-    font-size: 47px;
+    font-size: 35.5px;
     text-align: center;
     color: white;
     background-color: #322F42;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  
-    
+    padding-top: 15px; 
 }
 
 h3{
-    font-size: 47px;
+    font-size: 35.5px;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -59,11 +56,13 @@ nav ul li {
 display: inline-block;
 padding-top: 15px;
 padding-bottom: 15px;
-font-size: 20px;
+font-size: 15.5px;
 margin: 2px;
 }
 
-
+nav{
+    padding-left: 16px;
+}
 
 .button {
     background-color: #322F42;
@@ -81,6 +80,7 @@ margin: 2px;
     background-position: center;
     background-size: cover;
 }
+
 a{  
     color: white;
     margin-right: 10px;
@@ -88,8 +88,7 @@ a{
     text-decoration: none;
     font-family: "Proza Libre", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    
+    font-style: normal;   
 }
 
 body{
@@ -99,7 +98,7 @@ body{
 
 figcaption{
 text-align: center;
-font-size: 35px;
+font-size: 24px;
 padding-bottom: 15px;
 font-family: "Proza Libre", sans-serif;
 font-weight: 400;
